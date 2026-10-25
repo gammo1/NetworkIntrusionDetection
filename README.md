@@ -21,11 +21,11 @@ Three classification algorithms were evaluated using the same cleaned train/test
 
 ### Model Comparison
 
-| Model | Accuracy | Precision | Recall | F1-score | Training Time |
+| Model | Accuracy | Precision | Recall | F1-score | 
 |---|---:|---:|---:|---:|---:|
-| Logistic Regression | 92.51% | 77.45% | 98.17% | 86.59% | 25.18 s |
-| Random Forest | 99.70% | 99.35% | 99.44% | 99.40% | Not recorded |
-| HistGradientBoosting | **99.73%** | 99.34% | **99.54%** | **99.44%** | **10.10 s** |
+| Logistic Regression | 92.51% | 77.45% | 98.17% | 86.59% |
+| Random Forest | 99.70% | 99.35% | 99.44% | 99.40% |
+| HistGradientBoosting | **99.73%** | 99.34% | **99.54%** | **99.44%** |
 
 HistGradientBoosting was selected because it achieved the highest accuracy, recall, and F1-score among the three evaluated models, while training in approximately 10 seconds.
 
